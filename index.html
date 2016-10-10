@@ -1,0 +1,71 @@
+<html>
+<head>
+		<title>D CLICKER</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="HandheldFriendly" content="true">
+		<meta charset="utf-8">
+		<link rel="icon" type="image/x-icon" href="coin.png" />
+		<link rel="stylesheet" type="text/css" href="css/animation.css">
+		<script type="text/javascript" src="js.js"></script><style type="text/css"></style><style type="text/css"></style></head>
+	<body onload="carregar()" style="
+    background: url(bcg.png);
+    background-size: cover;
+    ">
+	
+	
+	<div id="blur"><div id="modal">
+  <h1>BEM VINDO AO<dc> D-CLICKER </dc>
+
+</h1>
+
+
+
+  
+<h2>Evolua a estrutura do DECOM contratando funcionários e realizando upgrades ao custo de DECOINS.</h2>
+<h2>Para adquirir seus DECOINS iniciais, basta clicar na imagem do prédio que fica no centro da tela.</h2>
+<h2>Use das compras e dos upgrades para adquirir ainda mais decoins.</h2>
+<h2>Seu objetivo é produzir decoins, efetuar compras e upgrades o suficiente para ter o funcionário do mais alto escalão: O coordenador. Ou talvez um pouquinho além disso, rs.</h2>
+
+  <div class="start">
+  <span>PARA COMEÇAR, CLIQUE NA IMAGEM ABAIXO</span>
+	<img onclick="closeModal()" src="coin.png">
+</div>  
+
+</div></div>
+	
+	<div id="container" class="container"><div class="wrapper">
+  
+  <div class="dc"><img src="logo.png"></div>
+  <div class="left">
+	<h3 class="tituloLista" style="margin-right: -15px;">UPGRADES</h3>
+	<ul class="upgrades" id="upgrades">
+  </div>
+  
+  <div class="middle" >
+	  <div id="score">
+		<div style="margin-bottom: 20px;">
+		<h3 id="pontuacao"></h3>
+		<h3 id="PpS"></h3>
+		</div>
+	 </div>
+  	<div id="trigger" ></div> 		
+  </div>
+<div class="right">
+  <h3 class="tituloLista">COMPRAS</h3>	
+  <ul class="compras" id="compras">
+    <li onclick="comprar(0)" id="cp_0">
+    	<img src="es.png">
+        <div class="nom">
+			<p id="cidt_0" class="idt">Estagiário</p>
+			<p id="cqtd_0" class="qtd"></p>
+		</div>
+		<p id="cprc_0" class="prc" style="color: rgb(82, 219, 71);">19</p>
+	</li>     
+	
+</div>
+
+</div>
+<div id="toolTip">
+</div>
+</body></html>
+
